@@ -52,7 +52,7 @@ const CrudApi = () => {
     }
     return (
         <div>
-            <h1>CRUD Api</h1>
+            <h1>CRUD Api Prueba</h1>
             {loading && <Loader/>}
             {error && <Message msg = {`Error ${error.status}: ${error.statusText}`} bgColor="#dc3545"/>}
             <CrudForm create={createData} update={updateData} dataToEdit={dataToEdit} setDataToEdit={setDataToEdit}/>
